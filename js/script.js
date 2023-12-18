@@ -48,4 +48,7 @@ else if (userAge > 65) {
 console.log(finalPrice)
 
 
+const paragraph = document.getElementById('ticket-price')
+paragraph.innerText = finalPrice;
 
+console.log(paragraph)
