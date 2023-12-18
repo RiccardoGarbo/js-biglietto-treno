@@ -15,8 +15,18 @@ console.log('JS OK')
 /* Chiedo all'utente i km che dovrà percorrere*/
 const userKm = prompt('Quanti km dovrai percorrere?', 100)
 console.log(userKm)
+
 /*Chiedo all'utente la sua età*/
 const userAge = prompt('Quanti anni hai?', 28)
 console.log(userAge)
+
+/*Definisco il prezzo al KM*/
+const priceKm = 0.21
+console.log(priceKm)
+
+/*Definisco il prezzo del biglietto in base ai KM che percorrerà l'utente*/
+const priceTkt = (userKm * priceKm)
+console.log(priceTkt)
+
 
 
