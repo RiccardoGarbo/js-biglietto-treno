@@ -9,8 +9,6 @@
 -7 Inserisco tutte le informazioni ottenute nel documento 
 */
 
-
-
-
-
+/*Controllo collegamento file js*/
+console.log('JS OK')
 
