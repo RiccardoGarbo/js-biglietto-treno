@@ -28,5 +28,24 @@ console.log(priceKm)
 const priceTkt = (userKm * priceKm)
 console.log(priceTkt)
 
+/*Definisco il prezzo finale del biglietto con gli sconti al 20% e al 40%*/
+let finalPrice = ('Il prezzo del biglietto è di € ' + priceTkt);
+
+
+
+
+/*----------20%-----------*/
+if (userAge <= 17) {
+    finalPrice = 'Ha i requisiti per usufruire di uno sconto del 20%, il prezzo del biglietto è di €' + (priceTkt - (priceTkt * 0.20))
+}
+
+/*-----------40%----------*/
+
+else if (userAge > 65) {
+    finalPrice = 'Ha i requisiti per usufruire di uno sconto del 40%, il prezzo del biglietto è di €' + (priceTkt - (priceTkt * 0.40))
+
+}
+console.log(finalPrice)
+
 
 
