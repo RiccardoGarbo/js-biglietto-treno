@@ -12,3 +12,11 @@
 /*Controllo collegamento file js*/
 console.log('JS OK')
 
+/* Chiedo all'utente i km che dovrà percorrere*/
+const userKm = prompt('Quanti km dovrai percorrere?', 100)
+console.log(userKm)
+/*Chiedo all'utente la sua età*/
+const userAge = prompt('Quanti anni hai?', 28)
+console.log(userAge)
+
+
